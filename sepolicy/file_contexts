@@ -1,7 +1,7 @@
 # Camera
 /data/cam_socket.*                            u:object_r:camera_socket:s0
 
-# MKHW
+# CMHW
 /sys/class/timed_output/vibrator/amp          u:object_r:vibeamp_sysfs:s0
 /sys/devices/gpio_keys.96/disabled_keys       u:object_r:vibeamp_sysfs:s0
 
